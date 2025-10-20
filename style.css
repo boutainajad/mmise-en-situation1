@@ -1,0 +1,56 @@
+body{
+    background-color: #FFFFFF;
+    padding: 200px;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.logo {
+    display: flex;
+}
+.navbar{
+    display: flex;
+    gap: 300px;
+}
+.navigatioml-links{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+header{
+    height: 60px;
+    border-bottom: 1px solid #f1f2f4;
+    padding: 12px 40px;
+    display: flex;
+    
+}
+.aboutme{
+    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.services{
+    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.service{
+    display: flex;
+    padding: 20px;
+}
+.information{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-decoration: none;
+}
+.copy-right
+{
+   text-align: center;
+}
