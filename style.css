@@ -60,3 +60,6 @@ img{
 .service p{
     width: 500px;
 }
+ul{
+    list-style: none;
+}
