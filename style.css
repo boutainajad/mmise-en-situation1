@@ -5,7 +5,6 @@ body{
 .hero{
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 .logo {
     display: flex;
@@ -53,4 +52,11 @@ header{
 .copy-right
 {
    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.service p{
+    width: 500px;
 }
