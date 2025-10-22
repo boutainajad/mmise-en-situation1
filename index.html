@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
-        <section class="navbar">
                  <div class="logo">
                          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                          <path
@@ -17,42 +17,59 @@
                         </svg>
                         <p>My Web Portfolio</p>
                     </div>
-            <ul class="navigatioml-links">
-                <li><i>home</i></li>
-                <li><i>about</i></li>
-                <li><i>services</i></li>
-                <li><i>contact</i></li>
-                <li><i><button>view Portfolio</button></i></li>
-            </ul>
-        </section>
+                    <nav>
+
+                        <ul class="navigatioml-links">
+                            <li><i>home</i></li>
+                            <li><i>about</i></li>
+                            <li><i>services</i></li>
+                            <li><i>contact</i></li>
+                                <li><i><button class="button-nav">view Portfolio</button></i></li>
+                        </ul>
+                    </nav>
     </header>
-    <section class="hero">
-        <h1>Welcome to My Web Portfolio</h1>
-        <p>I'm a passionate web developer specializing in HTML and CSS. Explore my projects below to see my skills in action.</p>
-        <button class="buton-hero">View Portfolio</button>
-    </section>
-    <section class="aboutme">
-       <h2>About Me</h2>
-       <p>I am a dedicated web developer with a strong foundation in HTML and CSS. My goal is to create visually appealing and user-friendly websites that meet the needs of my clients. I am constantly learning and improving my skills to stay up-to-date with the latest web development trends.</p>
-    </section>
-    <section class="Services">
-        <h2>Services</h2>
-        <h3>Web Design</h3>
-        <div class="service">
-            <p>Creating visually appealing and responsive website designs tailored to your brand.</p>
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2rRDYpd9pcBc3A5-R_ep0D73iz10zcu-obciimAjepeaRwNo_J6Te4Kte83amzThitrsYe9vuVU9Y7KQ8w_fR2-j8YXZwMqw8qDd5azDTLR28dibB3bsIV6wGy1h5Z2S7n-gn4RcqALL2bKFfRsmObhGaWaEK_VZXYni3md3RPQ5yOIwH2vdaLgP8Msjn8OAC6MwR0dVXtJnLUVxp17h5M_bquJlp7cmTi4ufPsIre5Z4gV9Ueb-GN_X__CHRJavEPdTkfa0Pw6I" alt="image">
-        </div>
-        <h3>Front-End Development</h3>
-        <div class="service">
-            <p>Implementing designs using HTML, CSS, and JavaScript to create interactive and dynamic websites.</p>
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL0eIqIVumy39fuCBqLlKkigjJQ5ulhtp8hmq3bk-TmxEmefEfgS5s1bd72Vht98QAbNZu6OmTd3WfKudFYzCAzqdr_5fyynKVqE7-qY0k9-6x0GSOzCrve81iPbmNMv4-eomt-KVBozkGpTD5XuLoRAQ4PyI96P56S7SdbXzv2odeyjy-vjKoYUPUk3SpdJG2LQRF57QW_E7TuHk1GEa-vcg94DedQqXZqUMNnKSXBMOXhFrjdT1dineMjyzoo6GUlvmEynrisU8" alt="image">
-        </div>
-        <h3>Website Maintenance</h3>
-        <div class="service">
-            <p>Providing ongoing support and updates to ensure your website remains functional and secure.</p>
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu-v4RXMKetvJEVtqdrrQm2GozdlpT0UQ38ZPRenhlmQ8XS-lev6rZOG8Cav9d7Cw389fXzoHiDRgg1wK1Zu2UGtQbNrcM73RHm5YpwBfN7Lt8b3SRdwBdxPaZc28SWlqB-XD6jKAhVAH-2ywphU08_txEZoeRWCd0Szcin-UYZSxfKplyMHqjG077eZIWETVKzFVMjUTZNOZhc6oIhAEtVwfR-kf9tNq2wyx3BQE87lzjuZ4yqlpTkjhjZxcmAyOBpMedWAKSs90" alt="image">
-        </div>
-    </section>
+    <main>
+
+        <section class="hero">
+            <h1>Welcome to My Web Portfolio</h1>
+            <p>I'm a passionate web developer specializing in HTML and CSS. Explore my projects below to see my skills in action.</p>
+            <button class="button-hero">View Portfolio</button>
+        </section>
+        <section class="aboutme">
+            <h2>About Me</h2>
+            <p>I am a dedicated web developer with a strong foundation in HTML and CSS. My goal is to create visually appealing and user-friendly websites that meet the needs of my clients. I am constantly learning and improving my skills to stay up-to-date with the latest web development trends.</p>
+        </section>
+        <section class="Services">
+            <h2>Services</h2>
+            <div class="service">
+                <div>
+                <h3>Web Design</h3>
+                <p>Creating visually appealing and responsive website designs tailored to your brand.</p>
+                </div>
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2rRDYpd9pcBc3A5-R_ep0D73iz10zcu-obciimAjepeaRwNo_J6Te4Kte83amzThitrsYe9vuVU9Y7KQ8w_fR2-j8YXZwMqw8qDd5azDTLR28dibB3bsIV6wGy1h5Z2S7n-gn4RcqALL2bKFfRsmObhGaWaEK_VZXYni3md3RPQ5yOIwH2vdaLgP8Msjn8OAC6MwR0dVXtJnLUVxp17h5M_bquJlp7cmTi4ufPsIre5Z4gV9Ueb-GN_X__CHRJavEPdTkfa0Pw6I" alt="image">
+                </div>
+            </div>
+            <div class="service">
+                <div>
+                    <h3>Front-End Development</h3>
+                    <p>Implementing designs using HTML, CSS, and JavaScript to create interactive and dynamic websites.</p>
+                </div>
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL0eIqIVumy39fuCBqLlKkigjJQ5ulhtp8hmq3bk-TmxEmefEfgS5s1bd72Vht98QAbNZu6OmTd3WfKudFYzCAzqdr_5fyynKVqE7-qY0k9-6x0GSOzCrve81iPbmNMv4-eomt-KVBozkGpTD5XuLoRAQ4PyI96P56S7SdbXzv2odeyjy-vjKoYUPUk3SpdJG2LQRF57QW_E7TuHk1GEa-vcg94DedQqXZqUMNnKSXBMOXhFrjdT1dineMjyzoo6GUlvmEynrisU8" alt="image">
+                </div>
+            </div>
+            <div class="service">
+                <div>
+                    <h3>Website Maintenance</h3>
+                    <p>Providing ongoing support and updates to ensure your website remains functional and secure.</p>
+                </div>
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu-v4RXMKetvJEVtqdrrQm2GozdlpT0UQ38ZPRenhlmQ8XS-lev6rZOG8Cav9d7Cw389fXzoHiDRgg1wK1Zu2UGtQbNrcM73RHm5YpwBfN7Lt8b3SRdwBdxPaZc28SWlqB-XD6jKAhVAH-2ywphU08_txEZoeRWCd0Szcin-UYZSxfKplyMHqjG077eZIWETVKzFVMjUTZNOZhc6oIhAEtVwfR-kf9tNq2wyx3BQE87lzjuZ4yqlpTkjhjZxcmAyOBpMedWAKSs90" alt="image">
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="informations">
            <ul class="information">
